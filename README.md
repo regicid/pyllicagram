@@ -26,7 +26,7 @@ Pour rechercher plusieurs syntagmes, vous pouvez passer une liste dans l'argumen
 pyllicagram(["francis","roger"])
 
 ```
-En spécifiant `somme = True` dans la fonction, elle retournera la somme des fréquences des mots recherchés (correspondant à la recherche "francis+roger" dans l'interface graphique de Gallicagram.
+En spécifiant `somme = True` dans la fonction, elle retournera la somme des fréquences des mots recherchés, ce qui correspond à la recherche "francis+roger" dans l'interface graphique de Gallicagram.
 
 ##Corpus
 Ce package permet seulement de chercher dans les corpus qui ont été tokénisés pour le projet Gallicagram, c'est-à-dire :
