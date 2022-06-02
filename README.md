@@ -19,7 +19,7 @@ Vous pouvez l'utiliser comme ceci:
 ```python
 pyllicagram(recherche="francis",corpus="presse",debut=1789,fin=1950,resolution="annee")
 ```
-Le seul argument nécessaire est `recherche`. Par défaut, la fonction cherche dans le corpus de presse de Gallica, de 1789 à 1950, en résolution mensuelle. Si vous ne spéficiez pas la résolution, la fonction vous retourne la résolution la plus fine disponible.
+Le seul argument nécessaire est `recherche`. Par défaut, la fonction cherche dans le corpus de presse de Gallica, de 1789 à 1950, en résolution mensuelle. Si vous ne spéficiez pas la résolution, la résolution la plus fine disponible est utilisée.
 
 La fonction vous retourne un tableau pandas, avec pour colonnes le nombre d'occurrences (`n`), le nombre total de mots sur la période (`total`), la fréquence du mot calculée comme le rapport des deux (`ratio`), le syntagme recherché (`gram`), l'année (`annee`) et selon la résolution le `mois` et le `jour`.
 
@@ -39,4 +39,4 @@ Ce package permet seulement de chercher dans les corpus qui ont été tokénisé
 * Les archives du Monde de décembre 1944 au 22 février 2022 (corpus="lemonde"). Fiable tout au long de la période, résolution journalière. Impeccablement océrisé, contrairement à Gallica.
 ![lemonde](man/figures/lemonde.png)
 ## Pour les passionnés
-Plus d'informations dans notre [preprint](https://osf.io/preprints/socarxiv/84bf3/) consacré au projet et dans la notice sur le [site](https://shiny.ens-paris-saclay.fr/app/gallicagram).
+Plus d'informations dans notre [preprint](https://osf.io/preprints/socarxiv/84bf3/) consacré au projet et dans la notice du [site](https://shiny.ens-paris-saclay.fr/app/gallicagram).
