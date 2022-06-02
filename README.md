@@ -2,7 +2,7 @@
 Un micro package python pour importer des données de [Gallicagram](https://shiny.ens-paris-saclay.fr/app/gallicagram).
 
 ## Installation
-Allez dans votre Terminal, clonez ce github et dirigez vous dans le dossier créé :
+Assurez-vous que `pandas` est installé (sinon...sérieusement ?). Allez dans votre Terminal, clonez ce github et dirigez vous dans le dossier créé :
 ```console
 git clone https://github.com/regicid/pyllicagram
 cd pyllicagram
