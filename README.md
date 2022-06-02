@@ -2,12 +2,11 @@
 Package python pour importer des données de Gallicagram.
 
 ## Installation
-Allez dans votre Terminal et clonez ce github :
+Allez dans votre Terminal, clonez ce github et dirigez vous dans le dossier créé :
+```console
 git clone https://github.com/regicid/pyllicagram
-
-Puis dirigez vous dans le dossier créé :
 cd pyllicagram
-
+```
 Vous pouvez maintenant lancer python (dans ce directory!)
 
 ## Usage
