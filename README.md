@@ -21,6 +21,8 @@ pyllicagram(recherche="francis",corpus="presse",debut=1789,fin=1950,resolution="
 ```
 Le seul argument nécessaire est `recherche`. Par défaut, la fonction cherche dans le corpus de presse de Gallica, de 1789 à 1950, en résolution mensuelle. Si vous ne spéficiez pas la résolution, la fonction vous retourne la résolution la plus fine disponible.
 
+La fonction vous retourne un tableau pandas, avec pour colonnes le nombre d'occurrences (`n`), le nombre total de mots sur la période (`total`), la fréquence du mot calculée comme le rapport des deux (`ratio`), le syntagme recherché (`gram`), l'année (`annee`) et selon la résolution le `mois` et le `jour`.
+
 Pour rechercher plusieurs syntagmes, vous pouvez passer une liste dans l'argument `recherche`. 
 ```python
 pyllicagram(["francis","roger"])
