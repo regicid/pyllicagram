@@ -12,7 +12,7 @@ Vous pouvez maintenant lancer python (dans ce directory!)
 
 ## Usage
 Importez la fonction avec :
-```
+```python
 from pyllicagram import pyllicagram
 ```
  
