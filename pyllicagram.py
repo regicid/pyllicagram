@@ -5,10 +5,21 @@
 #    Un micro package python pour importer des données de [Gallicagram]
 #
 import sys
-import subprocess
+import os
 import collections
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
+# import pandas
+try:
+	import pandas as pd
+	pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/corpus=presse_test_from=1789_to=1950")
+	print(sys.executable)
+except:
+	print("install pandas...")
+	# install pandas as a subprocess if needed
+	os.system(sys.executable + " -m pip install pandas")
+	os.system(sys.executable + " " + " ".join(sys.argv))
+	exit()
 
 # ------------------------
 # API CALL
@@ -54,14 +65,6 @@ def get_args():
     return args
 
 if __name__ == '__main__':
-	
-	# import pandas
-	try:
-		import pandas as pd
-	except:
-		# install pandas as a subprocess if needed
-		subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-		'pandas'])
 
 	# Get command line args
 	args = get_args()
