@@ -42,7 +42,7 @@ Ce package permet seulement de chercher dans les corpus qui ont été tokénisé
 Plus d'informations dans notre [preprint](https://osf.io/preprints/socarxiv/84bf3/) consacré au projet et dans la notice du [site](https://shiny.ens-paris-saclay.fr/app/gallicagram).
 
 ## Usage en ligne de commande
-Grâce à Laurent Vanni, vous pouvez utiliser le programme directement en ligne de commande et génère un fichier "results.csv" où les valeurs sont séparées par des tablulations. Pour la recherche d'un mot :
+Grâce à [Laurent Vanni](https://github.com/lvanni/), vous pouvez utiliser le programme directement en ligne de commande et génère un fichier "results.csv" où les valeurs sont séparées par des tablulations. Pour la recherche d'un mot :
 ```console
 $ python3 pyllicagram.py france
 ```
