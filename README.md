@@ -4,12 +4,12 @@ Un micro package python pour importer des données de [Gallicagram](https://shin
 ## Installation
 Assurez-vous que `pandas` est installé (sinon...sérieusement ?). Allez dans votre Terminal, clonez ce github et dirigez vous dans le dossier créé :
 ```console
-git clone https://github.com/regicid/pyllicagram
-cd pyllicagram
+$ git clone https://github.com/regicid/pyllicagram
+$ cd pyllicagram
 ```
 Vous pouvez maintenant lancer python (dans ce directory!)
 
-## Usage
+## Usage dans une session python
 Importez la fonction avec :
 ```python
 from pyllicagram import pyllicagram
@@ -40,3 +40,51 @@ Ce package permet seulement de chercher dans les corpus qui ont été tokénisé
 ![lemonde](man/figures/lemonde.png)
 ## Pour les passionnés
 Plus d'informations dans notre [preprint](https://osf.io/preprints/socarxiv/84bf3/) consacré au projet et dans la notice du [site](https://shiny.ens-paris-saclay.fr/app/gallicagram).
+
+## Usage en ligne de commande
+Grâce à Laurent Vanni, vous pouvez utiliser le programme directement en ligne de commande et génère un fichier "results.csv" où les valeurs sont séparées par des tablulations. Pour la recherche d'un mot :
+```console
+$ python3 pyllicagram.py france
+```
+
+Pour la recherche de plusieurs mots (séparés par des virgules) :
+```console
+$ python3 pyllicagram.py france,nation
+```
+
+Pour la recherche de la somme de plusieurs mots (séparés par des +):
+```console
+$ python3 pyllicagram.py france+nation
+```
+
+Pour la recherche d’une expression (entre guillemets) : 
+```console
+$ python3 pyllicagram.py "la france"
+```
+
+Pour passer les options :
+
+Choix du corpus parmi [lemonde, livres, presse] (presse par défaut) :
+```console
+$ python3 pyllicagram.py france -c livres
+```
+
+Choix de la date de début (1789 par défaut) :
+```console
+$ python3 pyllicagram.py france -d 1800
+```
+
+Choix de la date de fin (1950 par défaut) :
+```console
+$ python3 pyllicagram.py france -d 1900
+```
+
+Choix de la resolution parmi [default, annee, mois] :
+```console
+$ python3 pyllicagram.py france -r annee
+```
+
+Vous pouvez mélanger les options :
+```console
+$ python3 pyllicagram.py france -d 1800 -f 1900 -r annee 
+```
