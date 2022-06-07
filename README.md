@@ -4,7 +4,7 @@ Un micro package python pour importer des données de [Gallicagram](https://shin
 ## Installation
 Tout simplement :
 ```console
-pip install pyllicagram
+$ pip install pyllicagram
 ```
 
 Ou, si vous préférez la subtilité, vous pouvez cloner ce github et vous diriger dans le dossier créé :
