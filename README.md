@@ -14,7 +14,7 @@ $ cd pyllicagram
 ```
 Vous pouvez maintenant lancer python (dans ce directory!)
 
-## Usage dans une session python
+## Usage dans python
 Importez la fonction avec :
 ```python
 from pyllicagram import pyllicagram
