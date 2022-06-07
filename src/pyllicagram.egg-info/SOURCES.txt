@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/pyllicagram/__init__.py
+src/pyllicagram.egg-info/PKG-INFO
+src/pyllicagram.egg-info/SOURCES.txt
+src/pyllicagram.egg-info/dependency_links.txt
+src/pyllicagram.egg-info/requires.txt
+src/pyllicagram.egg-info/top_level.txt
