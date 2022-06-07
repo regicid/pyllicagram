@@ -2,7 +2,12 @@
 Un micro package python pour importer des données de [Gallicagram](https://shiny.ens-paris-saclay.fr/app/gallicagram).
 
 ## Installation
-Assurez-vous que `pandas` est installé (sinon...sérieusement ?). Allez dans votre Terminal, clonez ce github et dirigez vous dans le dossier créé :
+Tout simplement :
+````python
+pip install pyllicagram
+```
+
+Ou, si vous préférez la subtilité, vous pouvez cloner ce github et vous diriger dans le dossier créé :
 ```console
 $ git clone https://github.com/regicid/pyllicagram
 $ cd pyllicagram
@@ -42,7 +47,7 @@ Ce package permet seulement de chercher dans les corpus qui ont été tokénisé
 Plus d'informations dans notre [preprint](https://osf.io/preprints/socarxiv/84bf3/) consacré au projet et dans la notice du [site](https://shiny.ens-paris-saclay.fr/app/gallicagram).
 
 ## Usage en ligne de commande
-Grâce à [Laurent Vanni](https://github.com/lvanni/), vous pouvez utiliser le programme directement en ligne de commande et génère un fichier "results.csv" où les valeurs sont séparées par des tablulations. Pour la recherche d'un mot :
+Grâce à [Laurent Vanni](https://github.com/lvanni/), vous pouvez utiliser le programme directement en ligne de commande et génère un fichier "results.csv" où les valeurs sont séparées par des tablulations. Pour ce faire, clonez (ou si vous êtes un barbare, téléchargez) ce Github, et allez dans le directory pyllicagram (ou, cela revient au même, bougez le fichier pyllicagram.py dans le directory où vous souhaitez l'utiliser). Puis, pour la recherche d'un mot :
 ```console
 $ python3 pyllicagram.py france
 ```
