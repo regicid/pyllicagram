@@ -4,6 +4,7 @@
 # pyllicagram.py:
 #    Un micro package python pour importer des données de [Gallicagram]
 #
+import urllib
 import sys
 import os
 import collections
@@ -30,6 +31,7 @@ def pyllicagram(recherche,corpus="presse",debut=1789,fin=1950,resolution="defaul
         assert corpus in ["lemonde","livres","presse"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
         assert resolution in ["default","annee","mois"], 'Vous devez choisir la résolution parmi "default", "annee" ou "mois"'
         for gram in recherche:
+                gram = urllib.parse.quote_plus(gram.lower()).replace("-"," ").replace("+"," ")
                 gram = gram.replace(" ","%20")
                 df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/corpus={corpus}_{gram}_from={debut}_to={fin}")
                 if resolution=="mois" and corpus != "livres":
