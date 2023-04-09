@@ -31,7 +31,7 @@ def pyllicagram(recherche,corpus="presse",debut=1789,fin=1950,resolution="defaul
 	assert resolution in ["default","annee","mois"], 'Vous devez choisir la résolution parmi "default", "annee" ou "mois"'
 	for gram in recherche:
 		gram = gram.replace(" ","%20")
-		df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/corpus={corpus}_{gram}_from={debut}_to={fin}")
+		df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/query?corpus={corpus}&mot={gram}&from={debut}&to={fin}")
 		if resolution=="mois" and corpus != "livres":
 			df = df.groupby(["annee","mois", "gram"]).agg({'n':'sum','total':'sum'}).reset_index()
 		if resolution=="annee":
