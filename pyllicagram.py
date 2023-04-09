@@ -12,7 +12,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # import pandas
 try:
 	import pandas as pd
-	pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/corpus=presse_test_from=1789_to=1950")
+	pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/query?corpus=presse&mot=test&from=1789&to=1950")
 	print(sys.executable)
 except:
 	print("install pandas...")
