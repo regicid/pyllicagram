@@ -13,7 +13,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # import pandas
 try:
         import pandas as pd
-        pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/corpus=presse_test_from=1789_to=1950")
+        pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/query?corpus=presse&mot=test&from=1789&to=1950")
         print(sys.executable)
 except:
         print("install pandas...")
@@ -33,7 +33,7 @@ def pyllicagram(recherche,corpus="presse",debut=1789,fin=1950,resolution="defaul
         for gram in recherche:
                 gram = urllib.parse.quote_plus(gram.lower()).replace("-"," ").replace("+"," ")
                 gram = gram.replace(" ","%20")
-                df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/corpus={corpus}_{gram}_from={debut}_to={fin}")
+                df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/query?corpus={corpus}&mot={gram}&from={debut}&to={fin}")
                 if resolution=="mois" and corpus != "livres":
                         df = df.groupby(["annee","mois", "gram"]).agg({'n':'sum','total':'sum'}).reset_index()
                 if resolution=="annee":

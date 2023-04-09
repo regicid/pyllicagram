@@ -15,6 +15,7 @@ try:
 	pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/query?corpus=presse&mot=test&from=1789&to=1950")
 	print(sys.executable)
 except:
+	print('ablaaa')
 	print("install pandas...")
 	# install pandas as a subprocess if needed
 	os.system(sys.executable + " -m pip install pandas")
