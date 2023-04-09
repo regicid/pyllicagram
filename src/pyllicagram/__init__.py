@@ -47,3 +47,22 @@ def pyllicagram(recherche,corpus="presse",debut=1789,fin=1950,resolution="defaul
                 result["gram"] = "+".join(recherche)
         result["ratio"] = result.n.values/result.total.values
         return result
+
+
+def joker(gram,corpus="presse",debut=1789,fin=1950,after=True,n_joker=20):
+    if not isinstance(gram, str) and not isinstance(gram, list):
+            raise ValueError("La recherche doit être une chaîne de caractères ou une liste")
+    assert corpus in ["lemonde","livres","presse"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
+    gram = urllib.parse.quote_plus(gram.lower()).replace("-"," ").replace(" ","%20")
+    df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/joker?corpus={corpus}&mot={gram}&from={debut}&to={fin}&after={after}&n_joker={n_joker}")
+    return df 
+
+
+def contain(mot1,mot2,corpus="presse",debut=1789,fin=1950):
+    if not isinstance(mot1,str) or not isinstance(mot2,str):
+        raise ValueError("La recherche doit être une chaîne de caractères ou une liste")
+    assert corpus in ["lemonde","livres","presse"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
+    mot1 = urllib.parse.quote_plus(mot1.lower()).replace("-"," ").replace(" ","%20")
+    mot2 = urllib.parse.quote_plus(mot2.lower()).replace("-"," ").replace(" ","%20")
+    df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/contain?corpus={corpus}&mot1={mot1}&mot2={mot2}&from={debut}&to={fin}")
+    return df
