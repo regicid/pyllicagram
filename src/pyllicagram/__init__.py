@@ -6,6 +6,7 @@
 #
 import urllib
 import sys
+from tqdm import tqdm
 import os
 import collections
 import ssl
@@ -30,18 +31,21 @@ def pyllicagram(recherche,corpus="presse",debut=1789,fin=1950,resolution="defaul
         if not isinstance(recherche, list): recherche = [recherche]
         assert corpus in ["lemonde","livres","presse"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
         assert resolution in ["default","annee","mois"], 'Vous devez choisir la résolution parmi "default", "annee" ou "mois"'
-        for gram in recherche:
+        result = []
+        for gram in tqdm(recherche):
                 gram = urllib.parse.quote_plus(gram.lower()).replace("-"," ").replace("+"," ")
                 gram = gram.replace(" ","%20")
-                df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/query?corpus={corpus}&mot={gram}&from={debut}&to={fin}")
-                if resolution=="mois" and corpus != "livres":
-                        df = df.groupby(["annee","mois", "gram"]).agg({'n':'sum','total':'sum'}).reset_index()
-                if resolution=="annee":
-                        df = df.groupby(["annee","gram"]).agg({'n':'sum','total':'sum'}).reset_index()
-                if 'result' in locals():
-                        result = pd.concat([result, df])
-                else:
-                        result = df
+                df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/query?corpus={corpus}&mot={gram}&from={debut}&to={fin}&resolution={resolution:}")
+                #if resolution=="mois" and corpus != "livres":
+                #        df = df.groupby(["annee","mois", "gram"]).agg({'n':'sum','total':'sum'}).reset_index()
+                #if resolution=="annee":
+                #        df = df.groupby(["annee","gram"]).agg({'n':'sum','total':'sum'}).reset_index()
+                #if 'result' in locals():
+                #        result = pd.concat([result, df])
+                #else:
+                #        result = df
+                result.append(df)
+        result = pd.concat(result)
         if somme:
                 result = result.groupby(["annee",*(("mois",) if "mois" in result.columns else()),*(("jour",) if 'jour' in result.columns else())]).agg({'n':'sum','total':'mean'}).reset_index()
                 result["gram"] = "+".join(recherche)
