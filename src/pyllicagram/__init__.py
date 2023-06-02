@@ -53,12 +53,14 @@ def pyllicagram(recherche,corpus="presse",debut=1789,fin=1950,resolution="defaul
         return result
 
 
-def joker(gram,corpus="presse",debut=1789,fin=1950,after=True,n_joker=20):
+def joker(gram,corpus="presse",debut=1789,fin=1950,after=True,n_joker=20,length=None):
     if not isinstance(gram, str) and not isinstance(gram, list):
             raise ValueError("La recherche doit être une chaîne de caractères ou une liste")
     assert corpus in ["lemonde","livres","presse"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
     gram = urllib.parse.quote_plus(gram.lower()).replace("-"," ").replace(" ","%20")
-    df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/joker?corpus={corpus}&mot={gram}&from={debut}&to={fin}&after={after}&n_joker={n_joker}")
+    url=f"https://shiny.ens-paris-saclay.fr/guni/joker?corpus={corpus}&mot={gram}&from={debut}&to={fin}&after={after}"
+    if length is not None: url=url+f"length={length}"
+    df = pd.read_csv(url)
     return df 
 
 
@@ -70,3 +72,14 @@ def contain(mot1,mot2,corpus="presse",debut=1789,fin=1950):
     mot2 = urllib.parse.quote_plus(mot2.lower()).replace("-"," ").replace(" ","%20")
     df = pd.read_csv(f"https://shiny.ens-paris-saclay.fr/guni/contain?corpus={corpus}&mot1={mot1}&mot2={mot2}&from={debut}&to={fin}")
     return df
+
+def associated(gram,corpus="presse",debut=1789,fin=1950,n_joker=20):
+    if not isinstance(gram, str) and not isinstance(gram, list):
+            raise ValueError("La recherche doit être une chaîne de caractères ou une liste")
+    assert corpus in ["lemonde","livres","presse"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
+    gram = urllib.parse.quote_plus(gram.lower()).replace("-"," ").replace(" ","%20")
+    url=f"https://shiny.ens-paris-saclay.fr/guni/associated?corpus={corpus}&mot={gram}&from={debut}&to={fin}&after={after}"
+    if length is not None: url=url+f"length={length}"
+    df = pd.read_csv(url)
+    return df
+
