@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyllicagram',
-    version='1.8.2',
+    version='1.8.3',
     license='Creative Commons',
     author="Benoit de Courson",
     author_email='b.decourson@csl.mpg.de',

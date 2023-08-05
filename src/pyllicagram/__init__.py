@@ -29,7 +29,7 @@ def pyllicagram(recherche,corpus="presse",debut=1789,fin=1950,resolution="defaul
         if not isinstance(recherche, str) and not isinstance(recherche, list):
             raise ValueError("La recherche doit être une chaîne de caractères ou une liste")
         if not isinstance(recherche, list): recherche = [recherche]
-        assert corpus in ["lemonde","livres","presse","huma","paris"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
+        #assert corpus in ["lemonde","livres","presse","huma","paris"], 'Vous devez choisir le corpus parmi "lemonde","livres" et "presse"'
         assert resolution in ["default","annee","mois"], 'Vous devez choisir la résolution parmi "default", "annee" ou "mois"'
         result = []
         for gram in tqdm(recherche):
