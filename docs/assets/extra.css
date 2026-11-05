@@ -1,0 +1,8 @@
+/* Same colors and fonts as the rallicagram website (_pkgdown.yml) */
+:root {
+  --md-primary-fg-color: #1D4749;
+  --md-primary-fg-color--light: #2c6467;
+  --md-primary-fg-color--dark: #123133;
+  --md-accent-fg-color: #1D4749;
+}
+.md-typeset table:not([class]) { font-size: 0.68rem; }

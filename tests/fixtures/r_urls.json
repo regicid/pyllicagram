@@ -1,0 +1,1415 @@
+[
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "from": 1960,
+   "to": 1961
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1961&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "lemonde",
+   "from": 1960
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=2024&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "from": 1960.0,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "PRÉSIDENT",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "le président",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=le%20pr%C3%A9sident&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "le président de",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=le%20pr%C3%A9sident%20de&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "l'état",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=l'%C3%A9tat&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "ecolo*",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=ecolo*&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "cheval,chevaux",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=cheval,chevaux&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "cheval+chevaux",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=cheval+chevaux&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "null",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=null&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "none",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=none&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "nan",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=nan&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "1945",
+   "from": 1990,
+   "to": 1990,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=1945&from=1990&to=1990&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "motquinexistepasxyz",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=motquinexistepasxyz&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "figaro",
+   "from": 1900,
+   "to": 1900,
+   "resolution": "daily"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=figaro&mot=pr%C3%A9sident&from=1900&to=1900&resolution=jour"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "figaro",
+   "from": 1900,
+   "to": 1900,
+   "resolution": "monthly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=figaro&mot=pr%C3%A9sident&from=1900&to=1900&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "press",
+   "from": 1900,
+   "to": 1900,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=presse&mot=pr%C3%A9sident&from=1900&to=1900&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "presse",
+   "from": 1900,
+   "to": 1900,
+   "resolution": "daily"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=presse&mot=pr%C3%A9sident&from=1900&to=1900&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "books",
+   "from": 1800,
+   "to": 1802,
+   "resolution": "daily"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=livres&mot=pr%C3%A9sident&from=1800&to=1802&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "livres",
+   "from": 1500,
+   "to": 1705,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=livres&mot=pr%C3%A9sident&from=1500&to=1705&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "press",
+   "from": 1700,
+   "to": 1740
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=presse&mot=pr%C3%A9sident&from=1700&to=1740&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "books",
+   "resolution": "yearly",
+   "from": 1960,
+   "to": 1970
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=livres&mot=pr%C3%A9sident&from=1960&to=1970&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "france",
+   "corpus": "20minutes",
+   "from": 2020,
+   "to": 2020,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=20minutes&mot=france&from=2020&to=2020&resolution=annee&elias=true"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "france",
+   "corpus": "le_monde",
+   "from": 2020,
+   "to": 2020,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=le_monde&mot=france&from=2020&to=2020&resolution=annee&elias=true"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "france",
+   "corpus": "libe",
+   "from": 2020,
+   "to": 2020,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=libe&mot=france&from=2020&to=2020&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "france",
+   "corpus": "guardian",
+   "from": 2020,
+   "to": 2020,
+   "resolution": "monthly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=guardian&mot=france&from=2020&to=2020&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "from": 1960,
+   "to": 1960,
+   "n_of": "articles"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_article?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1960&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "république",
+   "corpus": "persee",
+   "from": 1950,
+   "to": 1951,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_persee?corpus=persee&mot=r%C3%A9publique&from=1950&to=1951&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "république",
+   "corpus": "persee",
+   "from": 1990,
+   "to": 1991,
+   "resolution": "yearly",
+   "subcorpora": "arss"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_persee?corpus=persee&mot=r%C3%A9publique&from=1990&to=1991&resolution=annee&revue=arss"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président ",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident%20&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "république",
+   "corpus": "cairn",
+   "from": 2010,
+   "to": 2011,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_cairn?corpus=cairn&mot=r%C3%A9publique&from=2010&to=2011&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "république",
+   "corpus": "cairn",
+   "from": 2010,
+   "to": 2011,
+   "resolution": "yearly",
+   "subcorpora": [
+    "ARSS",
+    "ACO"
+   ]
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_cairn?corpus=cairn&mot=r%C3%A9publique&from=2010&to=2011&resolution=annee&revue=ARSS+ACO"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "république",
+   "corpus": "cairn",
+   "from": 2010,
+   "to": 2011,
+   "n_results": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=cairn&mot=r%C3%A9publique&from=2010&to=2011&n_joker=3&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "république",
+   "corpus": "cairn",
+   "from": 2010,
+   "to": 2011,
+   "n_results": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=cairn&mot=r%C3%A9publique&from=2010&to=2011&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": [
+    "camarade",
+    "le camarade"
+   ],
+   "from": 1960,
+   "to": 1961,
+   "n_results": 5,
+   "distance": 1
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1961&n_joker=all&length=2",
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=le%20camarade&from=1960&to=1961&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_lexicon",
+  "args": {
+   "lexicon": [
+    "Camarade",
+    "camarade"
+   ],
+   "from": 2000,
+   "to": 2000,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=camarade&from=2000&to=2000&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "zzqqxyzz",
+   "from": 2000,
+   "to": 2000
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=zzqqxyzz&from=2000&to=2000&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": [
+    "zzqqxyzz",
+    "wwqqxyzz"
+   ],
+   "from": 2000,
+   "to": 2000
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=zzqqxyzz&from=2000&to=2000&n_joker=all&length=3",
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=wwqqxyzz&from=2000&to=2000&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "zzqqxyzz",
+   "from": 2000,
+   "to": 2000
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=lemonde&mot=zzqqxyzz&from=2000&to=2000&n_joker=20&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "zzqqxyzz",
+   "keyword_2": "wwqqxyzz",
+   "from": 2000,
+   "to": 2000,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=zzqqxyzz&mot2=wwqqxyzz&from=2000&to=2000&resolution=annee&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "route à part (query_cairn)",
+   "from": 2010,
+   "to": 2010,
+   "resolution": "yearly"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": [
+    "avion",
+    "patate"
+   ]
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": 23
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": false
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "from": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "to": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "from": 2000,
+   "to": 1990
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": 3
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "resolution": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "presse",
+   "n_of": "articles"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram",
+  "args": {
+   "keyword": "président",
+   "corpus": "lemonde",
+   "subcorpora": "arss"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_all",
+  "args": {
+   "keyword": "président"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1944&to=2023&resolution=annee",
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=presse&mot=pr%C3%A9sident&from=1789&to=1949&resolution=annee",
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=livres&mot=pr%C3%A9sident&from=1000&to=1939&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram_all",
+  "args": {
+   "keyword": "le président"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=le%20pr%C3%A9sident&from=1944&to=2023&resolution=annee",
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=presse&mot=le%20pr%C3%A9sident&from=1789&to=1949&resolution=annee",
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=livres&mot=le%20pr%C3%A9sident&from=1000&to=1939&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram_lexicon",
+  "args": {
+   "lexicon": [
+    "président",
+    "présidente"
+   ],
+   "from": 1960,
+   "to": 1961,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1961&resolution=annee",
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sidente&from=1960&to=1961&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram_lexicon",
+  "args": {
+   "lexicon": [
+    "président",
+    "présidente"
+   ],
+   "from": 1960,
+   "to": 1960,
+   "resolution": "monthly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1960&resolution=mois",
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sidente&from=1960&to=1960&resolution=mois"
+  ]
+ },
+ {
+  "fn": "gallicagram_lexicon",
+  "args": {
+   "lexicon": [
+    "président",
+    "le président"
+   ],
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1960&resolution=annee",
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=le%20pr%C3%A9sident&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram_lexicon",
+  "args": {
+   "lexicon": "président",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/query_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1960&resolution=annee"
+  ]
+ },
+ {
+  "fn": "gallicagram_lexicon",
+  "args": {
+   "lexicon": 3
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "république",
+   "from": 1960,
+   "to": 1961
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sident&mot2=r%C3%A9publique&from=1960&to=1961&resolution=mois&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "république",
+   "from": 1960,
+   "to": 1961,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sident&mot2=r%C3%A9publique&from=1960&to=1961&resolution=annee&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "république",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly",
+   "count_phrase": true
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sident&mot2=r%C3%A9publique&from=1960&to=1960&resolution=annee&count=False"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "république",
+   "from": 1960,
+   "to": 1961,
+   "cooccur_level": "articles"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/cooccur?corpus=lemonde&mot1=pr%C3%A9sident&mot2=r%C3%A9publique&from=1960&to=1961&resolution=mois&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "mauvais",
+   "corpus": "press",
+   "from": 1900,
+   "to": 1900
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=presse&mot1=pr%C3%A9sident&mot2=mauvais&from=1900&to=1900&resolution=mois&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "mauvais",
+   "corpus": "books",
+   "from": 1800,
+   "to": 1802
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=livres&mot1=pr%C3%A9sident&mot2=mauvais&from=1800&to=1802&resolution=annee&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "Président",
+   "keyword_2": "République",
+   "from": 1960,
+   "to": 1960,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sident&mot2=r%C3%A9publique&from=1960&to=1960&resolution=annee&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "mauvais",
+   "corpus": "figaro",
+   "from": 1900,
+   "to": 1900,
+   "resolution": "daily"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=figaro&mot1=pr%C3%A9sident&mot2=mauvais&from=1900&to=1900&resolution=jour&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "république",
+   "corpus": "20minutes",
+   "from": 2020,
+   "to": 2020
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": [
+    "avion",
+    "patate"
+   ],
+   "keyword_2": "test"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "test",
+   "keyword_2": [
+    "avion",
+    "patate"
+   ]
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_cooccur",
+  "args": {
+   "keyword_1": "président",
+   "keyword_2": "république",
+   "corpus": "presse",
+   "cooccur_level": "articles"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_cooccur_lexicon",
+  "args": {
+   "lexicon_1": [
+    "président",
+    "présidente"
+   ],
+   "lexicon_2": [
+    "mauvais",
+    "nul"
+   ],
+   "from": 1960,
+   "to": 1961,
+   "resolution": "yearly"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sident&mot2=mauvais&from=1960&to=1961&resolution=annee&count=True",
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sident&mot2=nul&from=1960&to=1961&resolution=annee&count=True",
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sidente&mot2=mauvais&from=1960&to=1961&resolution=annee&count=True",
+   "https://shiny.ens-paris-saclay.fr/guni/contain?corpus=lemonde&mot1=pr%C3%A9sidente&mot2=nul&from=1960&to=1961&resolution=annee&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_cooccur_lexicon",
+  "args": {
+   "lexicon_1": [
+    "président",
+    "présidente"
+   ],
+   "lexicon_2": [
+    "mauvais",
+    "nul"
+   ],
+   "from": 1960,
+   "to": 1960,
+   "cooccur_level": "articles"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/cooccur?corpus=lemonde&mot1=pr%C3%A9sident&mot2=mauvais&from=1960&to=1960&resolution=mois&count=True",
+   "https://shiny.ens-paris-saclay.fr/guni/cooccur?corpus=lemonde&mot1=pr%C3%A9sident&mot2=nul&from=1960&to=1960&resolution=mois&count=True",
+   "https://shiny.ens-paris-saclay.fr/guni/cooccur?corpus=lemonde&mot1=pr%C3%A9sidente&mot2=mauvais&from=1960&to=1960&resolution=mois&count=True",
+   "https://shiny.ens-paris-saclay.fr/guni/cooccur?corpus=lemonde&mot1=pr%C3%A9sidente&mot2=nul&from=1960&to=1960&resolution=mois&count=True"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970,
+   "n_results": 10,
+   "distance": 2
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970,
+   "distance": 1
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=all&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1961,
+   "n_results": 5,
+   "distance": "articles"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_article?corpus=lemonde&mot=camarade&from=1960&to=1961&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970,
+   "distance": 5
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970,
+   "stopwords": null,
+   "n_results": 8
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=9&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970,
+   "stopwords": [
+    "de",
+    "et",
+    "le"
+   ],
+   "n_results": 8
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970,
+   "remove_numbers": false,
+   "n_results": 200
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "président",
+   "from": 1960,
+   "to": 1961,
+   "n_results": 100
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1961&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "le président",
+   "from": 1960,
+   "to": 1961,
+   "n_results": 30
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=le%20pr%C3%A9sident&from=1960&to=1961&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "Camarade",
+   "from": 1960,
+   "to": 1970,
+   "stopwords": null,
+   "n_results": 5
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=6&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "république",
+   "corpus": "persee",
+   "from": 1950,
+   "to": 1951,
+   "n_results": 10
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=persee&mot=r%C3%A9publique&from=1950&to=1951&n_joker=all&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "france",
+   "corpus": "20minutes",
+   "from": 2020,
+   "to": 2020,
+   "n_results": 10
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=20minutes&mot=france&from=2020&to=2020&n_joker=all&length=2&elias=true"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "président",
+   "corpus": "presse_moderne",
+   "from": 2020,
+   "to": 2020
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": [
+    "avion",
+    "patate"
+   ]
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "son camarade de",
+   "distance": 0
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "son camarade de",
+   "distance": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "camarade",
+   "corpus": "presse",
+   "distance": "articles"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_associated",
+  "args": {
+   "keyword": "l'ami"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": [
+    "président",
+    "présidente"
+   ],
+   "from": 1960,
+   "to": 1961,
+   "n_results": 25,
+   "distance": 1
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1961&n_joker=all&length=2",
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=pr%C3%A9sidente&from=1960&to=1961&n_joker=all&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": [
+    "président",
+    "présidente"
+   ],
+   "from": 1960,
+   "to": 1961,
+   "n_results": 5
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=pr%C3%A9sident&from=1960&to=1961&n_joker=all&length=3",
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=pr%C3%A9sidente&from=1960&to=1961&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": "camarade",
+   "corpus": "lemonde",
+   "distance": 5,
+   "from": 2020
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=lemonde&mot=camarade&from=2020&to=2024&n_joker=all&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": "camarade",
+   "corpus": "livres",
+   "distance": 8,
+   "from": 1860,
+   "to": 1890
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/associated_ngram?corpus=livres&mot=camarade&from=1860&to=1890&n_joker=all&length=5"
+  ]
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": 3
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_associated_lexicon",
+  "args": {
+   "lexicon": "son camarade de",
+   "distance": 0
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=20&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1970,
+   "n_results": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=lemonde&mot=camarade&from=1960&to=1970&n_joker=3&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "camarade",
+   "from": 1960,
+   "to": 1961,
+   "n_results": "all"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=lemonde&mot=camarade&from=1960&to=1961&n_joker=all&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "le camarade",
+   "from": 1960,
+   "to": 1970,
+   "n_results": 3,
+   "length": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=lemonde&mot=le%20camarade&from=1960&to=1970&n_joker=3&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "le _ staline",
+   "from": 1960,
+   "to": 1970,
+   "n_results": 3,
+   "length": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=lemonde&mot=le%20_%20staline&from=1960&to=1970&n_joker=3&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "France",
+   "corpus": "20minutes",
+   "from": 2020,
+   "to": 2020,
+   "n_results": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_ngram?corpus=20minutes&mot=france&from=2020&to=2020&n_joker=3&length=2&elias=true"
+  ]
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "france",
+   "corpus": "presse_moderne",
+   "from": 2020,
+   "to": 2020
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": [
+    "avion",
+    "patate"
+   ]
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "camarade",
+   "corpus": "lemonde",
+   "length": 5
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "camarade",
+   "corpus": "books",
+   "length": 8,
+   "from": 1860,
+   "to": 1890
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "son camarade de",
+   "length": 2
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "camarade",
+   "length": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with",
+  "args": {
+   "keyword": "l'ami"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with_month",
+  "args": {
+   "keyword": "camarade"
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_mois?corpus=lemonde&mot=camarade&year=2022&month=1&n_joker=20&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_with_month",
+  "args": {
+   "keyword": "camarade",
+   "year": 1960,
+   "month": 3,
+   "n_results": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_mois?corpus=lemonde&mot=camarade&year=1960&month=3&n_joker=3&length=2"
+  ]
+ },
+ {
+  "fn": "gallicagram_with_month",
+  "args": {
+   "keyword": "Le Camarade",
+   "year": 1960,
+   "month": 3,
+   "n_results": 3,
+   "length": 3
+  },
+  "urls": [
+   "https://shiny.ens-paris-saclay.fr/guni/joker_mois?corpus=lemonde&mot=le%20camarade&year=1960&month=3&n_joker=3&length=3"
+  ]
+ },
+ {
+  "fn": "gallicagram_with_month",
+  "args": {
+   "keyword": "camarade",
+   "year": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with_month",
+  "args": {
+   "keyword": "camarade",
+   "month": "err"
+  },
+  "urls": []
+ },
+ {
+  "fn": "gallicagram_with_month",
+  "args": {
+   "keyword": "camarade",
+   "length": 5
+  },
+  "urls": []
+ },
+ {
+  "fn": "get_same_stem",
+  "args": {
+   "keyword": "président"
+  },
+  "urls": []
+ },
+ {
+  "fn": "get_same_stem",
+  "args": {
+   "keyword": "écologie"
+  },
+  "urls": []
+ },
+ {
+  "fn": "get_same_stem",
+  "args": {
+   "keyword": "motquinexistepasxyz"
+  },
+  "urls": []
+ }
+]

@@ -1,0 +1,78 @@
+site_name: pyllicagram
+site_description: Wrapper for the Gallicagram API. Port to Python of the R package rallicagram by Vincent Bagilet.
+site_url: https://regicid.github.io/pyllicagram/
+repo_url: https://github.com/regicid/pyllicagram
+repo_name: regicid/pyllicagram
+copyright: Port of rallicagram by Vincent Bagilet. MIT license.
+
+theme:
+  name: material
+  font:
+    text: Lato
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - content.code.copy
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: numpy
+            show_source: false
+            show_root_heading: false
+            show_root_toc_entry: false
+            show_signature_annotations: false
+            separate_signature: true
+            heading_level: 2
+            show_symbol_type_heading: false
+
+markdown_extensions:
+  - tables
+  - admonition
+
+nav:
+  - Home: index.md
+  - Get started: articles/pyllicagram.md
+  - Reference:
+      - reference/index.md
+      - Main functions:
+          - gallicagram: reference/gallicagram.md
+          - gallicagram_associated: reference/gallicagram_associated.md
+          - gallicagram_cooccur: reference/gallicagram_cooccur.md
+          - gallicagram_with: reference/gallicagram_with.md
+      - Lexicon version of main functions:
+          - gallicagram_lexicon: reference/gallicagram_lexicon.md
+          - gallicagram_associated_lexicon: reference/gallicagram_associated_lexicon.md
+          - gallicagram_cooccur_lexicon: reference/gallicagram_cooccur_lexicon.md
+          - get_same_stem: reference/get_same_stem.md
+      - Graph functions:
+          - gallicagraph: reference/gallicagraph.md
+          - gallicagraph_occur: reference/gallicagraph_occur.md
+          - gallicagraph_cooccur: reference/gallicagraph_cooccur.md
+          - gallicagraph_associated: reference/gallicagraph_associated.md
+      - Other functions:
+          - gallicagram_with_month: reference/gallicagram_with_month.md
+          - gallicagram_all: reference/gallicagram_all.md
+      - Data:
+          - list_corpora: reference/list_corpora.md
+          - list_subcorpora: reference/list_subcorpora.md
+          - stopwords_gallica: reference/stopwords_gallica.md
+          - word_lemma_stem: reference/word_lemma_stem.md
+      - Internal functions:
+          - error_param: reference/error_param.md
+          - prepare_param: reference/prepare_param.md
+          - read_data_gallicagram: reference/read_data_gallicagram.md
+          - tidy_gallicagram: reference/tidy_gallicagram.md
+  - Differences with rallicagram: differences.md
+  - Authors: authors.md
+  - License: license.md
